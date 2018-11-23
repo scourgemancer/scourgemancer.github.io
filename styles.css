@@ -25,13 +25,13 @@ p {
   height: 100%;
   width: 100%;
   position: absolute;
-  right: 50%;
+  right: 0%;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 #resume:hover {
   transition-duration: 1s;
-  right: 0%;
+  right: -50%;
 }
 
 iframe {
