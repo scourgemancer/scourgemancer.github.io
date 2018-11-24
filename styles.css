@@ -1,5 +1,10 @@
 body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
   overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
 }
 
@@ -11,30 +16,31 @@ p {
 #github {
   height: 100%;
   width: 100%;
-  position: absolute;
-  left: 50%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
-#github:hover {
+#github:hover iframe{
   transition-duration: 1s;
-  left: 0%;
+  display: block;
+}
+#github:hover p{
+  transition-duration: 1s;
+  display: none;
 }
 
 #resume {
   height: 100%;
   width: 100%;
-  position: absolute;
-  right: 0%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
-#resume:hover {
+#resume:hover iframe{
   transition-duration: 1s;
-  right: -50%;
+  display: block;
+}
+#resume:hover p{
+  transition-duration: 1s;
+  display: none;
 }
 
 iframe {
   height: 100%;
   width: 100%;
+  display: none;
 }
