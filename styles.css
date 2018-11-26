@@ -4,7 +4,7 @@ body {
   margin: 0;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 100fr 1fr 100fr;
   text-align: center;
   background: #717475;
 }
@@ -18,24 +18,34 @@ p {
   height: 100%;
   width: 100%;
 }
-#github:hover iframe{
+#github:hover {
+  z-index: 1;
+}
+#github:hover iframe {
   transition-duration: 1s;
   display: block;
 }
-#github:hover p{
+#github:hover p {
   transition-duration: 1s;
   display: none;
+}
+
+hr {
+  border-color: #717475;
 }
 
 #resume {
   height: 100%;
   width: 100%;
 }
-#resume:hover iframe{
+#resume:hover {
+  z-index: 1;
+}
+#resume:hover iframe {
   transition-duration: 1s;
   display: block;
 }
-#resume:hover p{
+#resume:hover p {
   transition-duration: 1s;
   display: none;
 }
