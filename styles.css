@@ -23,11 +23,11 @@ p {
 }
 #github:hover iframe {
   transition-duration: 1s;
-  display: block;
+  height: 100%;
+  width: 100%;
 }
 #github:hover p {
   transition-duration: 1s;
-  display: none;
 }
 
 hr {
@@ -43,15 +43,14 @@ hr {
 }
 #resume:hover iframe {
   transition-duration: 1s;
-  display: block;
+  height: 100%;
+  width: 100%;
 }
 #resume:hover p {
   transition-duration: 1s;
-  display: none;
 }
 
 iframe {
-  height: 100%;
-  width: 100%;
-  display: none;
+  height: 0%;
+  width: 0%;
 }
