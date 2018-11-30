@@ -17,18 +17,22 @@ iframe {
   height: 100%;
   width: 0%;
 }
+img {
+  height: 100%;
+  width: 0%;
+}
 
 #github {
   height: 100%;
   width: 100%;
 }
-#github iframe {
+#github img {
   margin-left: 100%;
 }
 #github:hover {
   z-index: 1;
 }
-#github:hover iframe {
+#github:hover img {
   transition-duration: 1s;
   height: 100%;
   width: 100%;
