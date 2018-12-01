@@ -50,13 +50,13 @@ hr {
   height: 100%;
   width: 100%;
 }
-#resume iframe {
+#resume img {
   margin-right: 100%;
 }
 #resume:hover {
   z-index: 1;
 }
-#resume:hover iframe {
+#resume:hover img {
   transition-duration: 1s;
   height: 100%;
   width: 100%;
