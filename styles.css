@@ -10,8 +10,11 @@ body {
 }
 
 p {
-  padding-top: calc(50% - 2.5em);
+  position: fixed;
+  z-index: -1;
   font-size: 2.5em;
+  top: calc(50% - 2.5em);
+  margin-left: calc(20vw);
 }
 iframe {
   height: 100%;
