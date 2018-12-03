@@ -15,6 +15,7 @@ p {
   font-size: 2.5em;
   top: calc(50% - 2.5em);
   margin-left: calc(20vw);
+  transition-duration: 1s;
 }
 iframe {
   height: 100%;
@@ -30,6 +31,7 @@ img {
   width: 100%;
 }
 #github img {
+  transition-duration: 1s;
   margin-left: 100%;
 }
 #github:hover {
@@ -54,6 +56,7 @@ hr {
   width: 100%;
 }
 #resume img {
+  transition-duration: 1s;
   margin-right: 100%;
 }
 #resume:hover {
