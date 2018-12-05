@@ -43,9 +43,6 @@ img {
   width: 100%;
   margin-left: 0;
 }
-#github:hover p {
-  transition-duration: 1s;
-}
 
 hr {
   border-color: #717475;
@@ -67,7 +64,4 @@ hr {
   height: 100%;
   width: 100%;
   margin-right: 0;
-}
-#resume:hover p {
-  transition-duration: 1s;
 }
