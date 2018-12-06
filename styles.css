@@ -4,26 +4,26 @@ body {
   margin: 0;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 100fr 1fr 100fr;
+  grid-template-rows: 100fr 1fr 30fr 1fr 30fr 1fr 30fr;
   text-align: center;
   background: #717475;
 }
 
 p {
-  position: fixed;
   z-index: -1;
   font-size: 2.5em;
-  top: calc(50% - 2.5em);
-  margin-left: 20vw;
-  transition-duration: 1s;
-}
-iframe {
-  height: 100%;
-  width: 0%;
 }
 img {
   height: 100%;
   width: 0%;
+}
+hr {
+  border-color: #717475;
+}
+
+#linkedin {
+  height: 100%;
+  width: 100%;
 }
 
 #github {
@@ -34,18 +34,11 @@ img {
   transition-duration: 1s;
   margin-left: 100%;
 }
-#github:hover {
-  z-index: 1;
-}
 #github:hover img {
   transition-duration: 1s;
   height: 100%;
   width: 100%;
   margin-left: 0;
-}
-
-hr {
-  border-color: #717475;
 }
 
 #resume {
@@ -55,9 +48,6 @@ hr {
 #resume img {
   transition-duration: 1s;
   margin-right: 100%;
-}
-#resume:hover {
-  z-index: 1;
 }
 #resume:hover img {
   transition-duration: 1s;
