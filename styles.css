@@ -21,14 +21,18 @@ hr {
   border-color: #717475;
 }
 
-#linkedin {
+#top-section {
   height: 100%;
   width: 100%;
+  grid-row-start: 1;
+  grid-row-end: 1;
 }
 
 #github {
   height: 100%;
   width: 100%;
+  grid-row-start: 3;
+  grid-row-end: 3;
 }
 #github img {
   transition-duration: 1s;
@@ -41,9 +45,17 @@ hr {
   margin-left: 0;
 }
 
+#linkedin {
+  height: 100%;
+  width: 100%;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+
 #resume {
   height: 100%;
   width: 100%;
+  grid-row-start: 7;
 }
 #resume img {
   transition-duration: 1s;
