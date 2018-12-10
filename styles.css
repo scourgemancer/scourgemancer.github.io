@@ -17,12 +17,14 @@ p {
   height: 100%;
   width: 100%;
   grid-row-start: span 1;
+  overflow: hidden;
 }
 
 #github {
   height: 100%;
   width: 100%;
   grid-row-start: span 1;
+  overflow: hidden;
 }
 #github img {
   transition-duration: 1s;
@@ -43,12 +45,14 @@ p {
   height: 100%;
   width: 100%;
   grid-row-start: span 1;
+  overflow: hidden;
 }
 
 #resume {
   height: 100%;
   width: 100%;
   grid-row-start: span 1;
+  overflow: hidden;
 }
 #resume img {
   transition-duration: 1s;
