@@ -19,27 +19,30 @@ p {
 
 #self-advertising-links div {
   max-height: 20vh;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
+}
+#self-advertising-links p {
+  margin-top: calc(10vh - 0.57em);
+  margin-bottom: calc(10vh - 0.57em);
 }
 #self-advertising-links img {
   transition-duration: 1s;
   position: relative;
-  z-index: 2;
-  left: 100%;
-  width: 100%;
+  width: 100vw;
   height: 100vw;
+  top: 0vh;
 }
 
 #github:hover img {
   transition-duration: 1s;
-  left: 0;
+  top: -20vh;
 }
 #linkedin:hover img {
   transition-duration: 1s;
-  left: 0;
+  top: -20vh;
 }
 #resume:hover img {
   transition-duration: 1s;
-  left: 0;
+  top: -20vh;
 }
