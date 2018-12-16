@@ -12,7 +12,7 @@ p {
 }
 
 #top-section {
-  height: 40vh;
+  height: calc(40vh - 1.5em);
   width: 100vw;
   overflow: hidden;
 }
@@ -52,4 +52,10 @@ p {
 #resume:hover img {
   transition-duration: 1s;
   top: -20vh;
+}
+
+#bottommost-text {
+  font-size: 1em;
+  color: #53585A;
+  margin-top: 0.5em;
 }
